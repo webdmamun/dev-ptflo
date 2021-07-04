@@ -62,3 +62,39 @@ p{
 .bodysection-two img{
     margin: 0px;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience{
+    padding: 30px 30px 30px 0px;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 40px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.experience-item h2{
+    font-size: 40px;
+}
+#webd-portion-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato) 30;
+    border-image-slice: 1;
+
+}
+#webd-portion-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice: 1;
+
+}
+footer p{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 40px;
+}
