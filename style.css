@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+body{font-family: sans-serif, Arial !important; transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease;}
+body, html{height: 100%;}
+img{max-width: 100%;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+h1, h2, h3, h4, h5, h6{font-weight: normal; margin-top: 10px; margin-bottom: 10px;}
+p{line-height: 150%; margin-bottom: 2em;}
+.container_full{width: 100%; height: auto;}
+.container{width: 960px; margin: 0 auto; display: block;}
+.fix{overflow: hidden;}
+.aligncenter{display: block; margin: 0 auto;}
+.floatleft{float: left;}
+.floatright{float: right;}
+/*----------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+}
+.orange{
+    color: #F1A236;
+}
+img{
+    border-radius: 50%;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-me-button{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+}
